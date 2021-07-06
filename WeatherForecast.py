@@ -85,7 +85,7 @@ response = requests.post(url,data=body,headers=headers)
 # Processing the SOAP response received from server
 text = response.text
 
-location = "PATH/TO/SAVE/XML/RESPONSE/WEATHER_FORECAST.XML"
+location = "C:/xampp/htdocs/WeatherInfo.xml"
 
 
 # # Response received has XML file inserted into another xml body.
